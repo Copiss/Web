@@ -1,0 +1,23 @@
+<!-- Вариант 8. Создайте форму, позволяющую выбирать несколько из данных значений в поле страна: Россия, Польша, Литва и пр. Используйте теги <label> и <input>. -->
+<!DOCTYPE html>
+<html>
+<html lang="ru">
+<head>
+    <title>Ksenia_lab_0</title>
+</head>
+<body>
+    <h1>Выберите страну:</h1>
+    <form>
+        <fieldset>
+            <legend>Выберите подходящую страну из списка:</legend>
+            <label><input type="checkbox" name="country" value="Сhina"> Китай </label><br>
+            <label><input type="checkbox" name="country" value="Singapore"> Сингапур </label><br>
+            <label><input type="checkbox" name="country" value="Egypt"> Египет </label><br>
+	    <label><input type="checkbox" name="country" value="Norway"> Ноpвегия </label><br>
+	    <label><input type="checkbox" name="country" value="India"> Индия </label><br>
+	    <label><input type="checkbox" name="country" value="Japan"> Япония </label><br>
+	    <label><input type="checkbox" name="country" value="Kenya"> Кения </label><br>
+        </fieldset>
+    </form>
+</body>
+</html>
